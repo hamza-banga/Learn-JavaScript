@@ -17,6 +17,6 @@ console.log("This log");
 // (method) Console.error(...data: any[]): void
 console.error("This Error")
 // (method) Console.table(tabularData?: any, properties?: string[]): void
-console.table(["PHP","JS","CSS","Python"]);
+console.table(["PHP","JS","CSS","Python"]); 
 console.log("Hello %cFrom JS %cFile",  "color:red ; font-size:40px" , "color:blue ; font-size:45px")
 

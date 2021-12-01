@@ -11,5 +11,5 @@
 // [1] window.alert()
 documnet.getElementById("demo").innerHTML = 5**3;
 window.alert("Hello From JS File");
-document.write("<h1> This Header From <span style='font-size:30px'>JS</span> File</h1>")
+document.write("<h1> This Header From <span style='font-size:30px'>JS</span> File</h1><p> Open Console .</p> " );  
 console.log("Hello From JS File")
