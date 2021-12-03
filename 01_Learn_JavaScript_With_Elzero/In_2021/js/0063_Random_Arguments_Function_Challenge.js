@@ -18,11 +18,16 @@ function ShowDetails(name, age , status  ){
 
     if ( typeof name === "string" ){
         name2 = name;
+   
     } else if ( typeof name === "number" ){
         age2 = age;
-    } else {
+    
+    } else if ( typeof name === "boolean" ){
         status2 = status;
+    }else{
+        return
     }
+
     // =================================
 
     // typeof name === "string" ? 
@@ -36,7 +41,7 @@ function ShowDetails(name, age , status  ){
         name2 = age;
     } else if ( typeof age === "number" ){
         age2 = age;
-    } else{
+    } else if ( typeof age === "boolean" ){
         status2 = age;
     }
 
@@ -51,10 +56,10 @@ function ShowDetails(name, age , status  ){
         name2 = status;
     } else if ( typeof status === "number" ){
         age2 = status;
-    } else if ( typeof status === "number" ){
-        age2 = status;
+    } else if ( typeof status === "boolean" ){
+        status2 = status;
     } else {
-       return
+    //    return
     }
 
     // typeof status === "string" ?
@@ -65,12 +70,20 @@ function ShowDetails(name, age , status  ){
     // status2 = status; :
 
     // status2 === true ? document.write(` <h2> Hello ${name2} , Your Age Is ${age2}, You Are Available For Hire </h2> `) : document.write(` <h2> Hello ${name} , Your Age Is ${age}, You Are Not Available For Hire </h2> `);
-    status2 = "true" ? document.write(` <h2> Hello ${name2} , Your Age Is ${age2}, You Are Available For Hire </h2> `) : document.write(` <h2> Hello ${name2} , Your Age Is ${age2}, You Are Not Available For Hire </h2> `);
+    if ( status2 === true ){
+        document.write(` <h2> Hello ${name2} , Your Age Is ${age2}, You Are Available For Here </h2> `);
+    }else{
+        document.write(` <h2> Hello ${name2} , Your Age Is ${age2}, You Are Not Available For Here </h2> `);
+    }
+    // status2 === true ? 
+    // document.write(` <h2> Hello ${name2} , Your Age Is ${age2}, You Are Available For Hire </h2> `) : 
+    // status2 === false ?  
+    // document.write(` <h2> Hello ${name2} , Your Age Is ${age2}, You Are Not Available For Here </h2> `)
 
 }
 
 ShowDetails("Osama", 38, true ); // "Hello Osama , Your Age Is 38, You Are Available For Hire"
-ShowDetails(38,"Osama", true ); // "Hello Osama , Your Age Is 38, You Are Available For Hire"
+ShowDetails(38, "Osama", true ); // "Hello Osama , Your Age Is 38, You Are Available For Hire"
 ShowDetails(true, 38, "Osama" ); // "Hello Osama , Your Age Is 38, You Are Available For Hire"
 ShowDetails(false, "Osama", 38); // "Hello Osama , Your Age Is 38, You Are Not Available For Hire"
 
