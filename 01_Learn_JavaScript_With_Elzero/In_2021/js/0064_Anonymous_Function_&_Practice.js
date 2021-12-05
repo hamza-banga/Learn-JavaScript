@@ -4,6 +4,8 @@ Calling Named Function VS Anonymous Function
 Argument To Other Function 
 Task Without Name 
 SetTimeout
+Try To Make Advanced 
+ 
 */
 
 // ====================================================
