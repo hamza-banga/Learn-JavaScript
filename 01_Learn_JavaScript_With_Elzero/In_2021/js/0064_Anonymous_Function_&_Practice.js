@@ -46,3 +46,9 @@ document.getElementById("sayHello").onclick = sayHello() ;
 // ====================================================
 // Test To Get Input From User And Do Action
 
+let input = document.getElementById("input").value
+// let numtow = document.getElementById("tow").value;
+
+document.getElementById("button").onclick = function () {
+    console.log( input ); // => input
+}
