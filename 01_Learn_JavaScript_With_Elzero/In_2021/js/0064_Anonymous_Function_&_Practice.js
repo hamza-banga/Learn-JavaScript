@@ -33,16 +33,3 @@ let numtow = document.getElementById("tow").value;
 document.getElementById("calc").onclick = function () {
     console.log( numone + numtow ); // => num + num
 }
-
-// ====================================================
-// Can We Call Direct
-
-function sayHello() {
-    console.log(` Hello Osama `)
-}
-
-document.getElementById("sayHello").onclick = sayHello() ;
-
-// ====================================================
-// Test To Get Input From User And Do Action
-
