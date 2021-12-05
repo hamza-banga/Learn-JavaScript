@@ -51,7 +51,7 @@ let input = document.getElementById("input").value
 // let numtow = document.getElementById("tow").value;
 document.getElementById("sayHello").onclick = function () {
     console.log( ` Hello ${input}` )
-} ;
+};
 
 document.getElementById("button").onclick = function () {
     console.log( input ); // => input
