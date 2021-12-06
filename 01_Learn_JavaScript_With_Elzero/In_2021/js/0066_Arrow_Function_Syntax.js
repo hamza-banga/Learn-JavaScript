@@ -13,7 +13,7 @@
 let print = function () {
     return 10;
 };
-console.log(print); // => 10
+console.log(print); // => 10  
 
 /**************************************
  * When We Have One Statment We Can Put In One Line 
