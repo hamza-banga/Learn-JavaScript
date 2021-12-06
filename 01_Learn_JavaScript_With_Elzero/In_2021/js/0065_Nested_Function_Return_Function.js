@@ -9,11 +9,11 @@
 
 // // Example 1
 
-// function sayHello( fName, Lname ) {
+// function sayHello( firstName, lastName ) {
 //     let message = "Hello";
 
 //     function concatMessage () {
-//         message = ` ${message} ${fName} ${Lname} `;
+//         message = ` ${message} ${firstName} ${lastName} `;
 //     }
 //     concatMessage();
 //     return message ;
@@ -23,11 +23,11 @@
 // -==============================================
 // // Example 2
 
-// function sayHello( fName, Lname ) {
+// function sayHello( firstName, lastName ) {
 //     let message = "Hello";
 
 //     function concatMessage() {
-//         return  ` ${message} ${fName} ${Lname} `;
+//         return  ` ${message} ${firstName} ${lastName} `;
 //     }
 //     return concatMessage();
 // }
@@ -37,12 +37,12 @@
 // -==============================================
 // Example 3
 
-function sayHello( fName, Lname ) {
+function sayHello( firstName, lastName ) {
     let message = "Hello";
 
     function concatMessage() {
         function fullName(){
-            return `${fName} ${Lname} `;
+            return `${firstName} ${lastName} `;
         }
 
         return `${message} ${fullName()} `;
