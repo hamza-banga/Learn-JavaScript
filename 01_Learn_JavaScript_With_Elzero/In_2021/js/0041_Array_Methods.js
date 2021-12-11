@@ -15,30 +15,28 @@ Array Methods
     concat()       = Array<string>.concat(...items: ConcatArray<string>[]): string[] (+1 overload) || Combines two or more arrays. This method returns a new array without modifying any existing arrays.
     join()         = Array<string>.join(separator?: string): string || Adds all the elements of an array into a string, separated by the specified separator string.
 
-
 */
 // print("="*80)
 let a = "="
-// =========================
-// === [ 01 ] = length =====
-// =========================
+/** =========================
+ * === [ 01 ] = length ====
+ * ========================= */
 
 console.log("%cLength" , "font-size:20px ; color:blue")
 let  myLength = ["moazer", "Hassan","Sayed","Ali","Osama"]
 console.log(myLength);
-
-// (property) Array<string>.length: number
-// Gets or sets the length of the array.
-// This is a number one higher than the highest index in the array.
+/**
+ * (property) Array<string>.length: number
+ * Gets or sets the length of the array.
+ * This is a number one higher than the highest index in the array.
+ */
 console.log(myLength.length); // 5
-
-// Add Items To Array 
+/** Add Items To Array In Last Array By Length */
 myLength[myLength.length] = "Abdo"; // 5
-console.log(myLength);
-
-// Updata Last Item In Array 
+console.log(myLength); // -> ["moazer", "Hassan","Sayed","Ali","Osama", "Abdo"]
+/**Updata Last Item In Array  */
 myLength[myLength.length - 1] = "Mozamil";
-console.log(myLength);
+console.log(myLength);  // -> ["moazer", "Hassan","Sayed","Ali","Osama", "Abdo"]
 
 myLength[7] = "Banga";
 console.log(myLength);
