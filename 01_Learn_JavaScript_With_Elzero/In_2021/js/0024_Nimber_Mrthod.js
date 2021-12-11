@@ -65,3 +65,4 @@ console.log(Number.isInteger(100));   //  -> true
  */
 console.log(Number.isNaN(20));   //  -> false
 console.log(Number.isNaN("Osama" / 20)); //  -> True
+// Test Git
