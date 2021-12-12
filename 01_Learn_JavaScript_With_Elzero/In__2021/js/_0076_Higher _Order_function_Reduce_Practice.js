@@ -16,5 +16,8 @@ let finalString = removeChars.filter(function(e){
     return `${acc}${current}`
 }) ;
 console.log(finalString);
+// With Arrow Function 
+let finalStringArrow = removeChars.filter(e => !e.startsWith("@") ).reduce( (acc, current) => `${acc}${current}` );
+console.log(finalStringArrow);
 
 
