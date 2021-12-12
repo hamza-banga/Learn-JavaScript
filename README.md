@@ -24,7 +24,7 @@
 > - ### [ _0033_If_Else_Coditions ](https://github.com/hamzoooz/JavaScript/tree/main/01_Learn_JavaScript_With_Elzero/In__2021/_0033_If_Else_Coditions.html ) .
 > - ### [ _0034_If_Challenge](https://github.com/hamzoooz/JavaScript/tree/main/01_Learn_JavaScript_With_Elzero/In__2021/_0034_If_Condtion_Challenge.html ) .
 > - ### [ _0035_Switch_Statement ](https://github.com/hamzoooz/JavaScript/tree/main/01_Learn_JavaScript_With_Elzero/In__2021/_0035_Switch_Statement.html ).
-> - ### [ _0038_Switch_&_If_Condtion_Challenge ](https://github.com/hamzoooz/JavaScript/tree/main/01_Learn_JavaScript_With_Elzero/In__2021/_0038_Switch_&_If_Condtion_Challenge.html).
+> - ### [ _0038_Switch_If_Challenge](https://github.com/hamzoooz/JavaScript/tree/main/01_Learn_JavaScript_With_Elzero/In__2021/_0038_Switch_&_If_Condtion_Challenge.html).
 > - ### [ _0040_Array_Gig_Introduction](https://github.com/hamzoooz/JavaScript/tree/main/01_Learn_JavaScript_With_Elzero/In__2021/_0040_Array_Gig_Introduction.html).
 > - ### [ _0041_Array_Methods  ](https://github.com/hamzoooz/JavaScript/tree/main/01_Learn_JavaScript_With_Elzero/In__2021/_0041_Array_Methods.html) .
 > - ### [ _0047_Array_Challenge  ](https://github.com/hamzoooz/JavaScript/tree/main/01_Learn_JavaScript_With_Elzero/In__2021/_0047_Array_Challenge.html) .
