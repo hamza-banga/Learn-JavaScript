@@ -32,10 +32,30 @@ let object3 = {
  * assign<T, U>(target: T, source: U): T & U;
  */
 
-let copyObject = new Object.assign(object1, object2, object3 );
+let copyObject = Object.assign(object3, object1, object2 );
 
 // We Can Edite Remove Any Thing In New Object 
- 
 console.log( copyObject )
 
-// document.write(`${copyObject} `)
+// We Can Creat Void Object & Object & Method & 
+
+// var methodName=  function () { return console.log(` This Called From Out Side Object `); }
+
+let newObject = Object.assign({}, object1, {porp5:5,prop6:6 } );
+console.log(newObject);
+
+let newObjectOther = Object.assign(
+    {},
+     object1,
+      {
+        porp5:5,
+        prop6:6,
+        method3: function () { 
+            return console.log(` This Called From Out Side Object `); 
+        }
+    } 
+);
+
+
+console.log(newObjectOther);
+
