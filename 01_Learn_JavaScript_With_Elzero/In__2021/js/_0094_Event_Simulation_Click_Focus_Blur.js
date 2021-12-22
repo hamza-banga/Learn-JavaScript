@@ -4,7 +4,6 @@
   *     Focus
   *     Blur
   */
-
 let one = document.querySelector(".one ");
 let tow = document.querySelector(".tow ");
 
@@ -17,19 +16,32 @@ tow.onblur = function() {
 }
 
 // ========================
-let one1 = document.querySelector("#one1 ");
-let one2 = document.querySelector("#one2 ");
-let one3 = document.querySelector("#one3 ");
-let one4 = document.querySelector("#one4 ");
-let submit = document.getElementById("submit")
-window.onload = function(){
-    one1.focus()
-};
+// let form = document.forms["apple-id"];
+// console.log(form);
 
-if ( one1.value.length > 1){
-    one2.focus();
-}
+// let one1 = document.querySelector(" [name='one1'] ");
+// let one2 = document.querySelector(" [name='one2'] ");
+// let one3 = document.querySelector(" [name='one3'] ");
+// let one4 = document.querySelector(" [name='one4'] ");
+// let submit = document.getElementById("submit-apple");
 
+
+// if ( one1.value.length > 0 ){
+//     one1.blur();
+//     one2.focus();
+// };
+
+// if ( one2.value.length === 1 ){
+//     one3.focus();
+// };
+
+// if ( one3.value.length === 1 ){
+//     one4.focus();
+// };
+
+// if ( one4.value.length === 1 ){
+//     submit.click();
+// };
 
 
 
