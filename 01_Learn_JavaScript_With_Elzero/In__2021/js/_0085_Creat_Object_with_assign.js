@@ -56,6 +56,5 @@ let newObjectOther = Object.assign(
     } 
 );
 
-
 console.log(newObjectOther);
 
